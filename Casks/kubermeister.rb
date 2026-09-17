@@ -1,15 +1,15 @@
 # Template for the stable cask in kubermeister/homebrew-tap. The release workflow substitutes
-# 0.2.0, 840a4f81b4046ac907f34cc57717c9fe972cdd19ef3f16a6b74c601b70f273d5 and ede0b8434b02caa2f30e77edf5a28efb6abcac590d98787600b219e81a54e136 and pushes the result as Casks/kubermeister.rb on
+# 0.3.0, bbce4cdc71febd6a83d3b60d80f1045439f2fc59c5357fdd25f4f85f870c2617 and 1cd97bfb490c953181cc9931616b446ab3836bba9ebf9cd7a29963b0487a1877 and pushes the result as Casks/kubermeister.rb on
 # every stable release. The dmg URLs depend on the artifactName pattern in electron-builder.yml.
 cask "kubermeister" do
-  version "0.2.0"
+  version "0.3.0"
 
   on_arm do
-    sha256 "840a4f81b4046ac907f34cc57717c9fe972cdd19ef3f16a6b74c601b70f273d5"
+    sha256 "bbce4cdc71febd6a83d3b60d80f1045439f2fc59c5357fdd25f4f85f870c2617"
     url "https://github.com/kubermeister/kubermeister/releases/download/v#{version}/Kubermeister-#{version}-mac-arm64.dmg"
   end
   on_intel do
-    sha256 "ede0b8434b02caa2f30e77edf5a28efb6abcac590d98787600b219e81a54e136"
+    sha256 "1cd97bfb490c953181cc9931616b446ab3836bba9ebf9cd7a29963b0487a1877"
     url "https://github.com/kubermeister/kubermeister/releases/download/v#{version}/Kubermeister-#{version}-mac-x64.dmg"
   end
 
