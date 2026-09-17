@@ -3,15 +3,15 @@ cask "kubermeister@tip" do
   sha256 :no_check
 
   on_arm do
-    url "https://github.com/araratpoghosyan/kubermeister/releases/download/tip/Kubermeister-tip-mac-arm64.dmg"
+    url "https://github.com/kubermeister/kubermeister/releases/download/tip/Kubermeister-tip-mac-arm64.dmg"
   end
   on_intel do
-    url "https://github.com/araratpoghosyan/kubermeister/releases/download/tip/Kubermeister-tip-mac-x64.dmg"
+    url "https://github.com/kubermeister/kubermeister/releases/download/tip/Kubermeister-tip-mac-x64.dmg"
   end
 
   name "Kubermeister Tip"
   desc "Desktop Kubernetes client, nightly build"
-  homepage "https://github.com/araratpoghosyan/kubermeister"
+  homepage "https://github.com/kubermeister/kubermeister"
 
   auto_updates true
 
