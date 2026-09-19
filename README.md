@@ -4,11 +4,8 @@ Homebrew 7 requires third-party taps to be trusted once before anything from the
 
 ```sh
 brew trust kubermeister/tap
-brew install --cask kubermeister/tap/kubermeister        # stable
-brew install --cask kubermeister/tap/kubermeister@tip    # nightly, separate app
+brew install --cask kubermeister/tap/kubermeister
 ```
 
-The stable cask is updated automatically by the release workflow in
-[kubermeister/kubermeister](https://github.com/kubermeister/kubermeister). The tip cask
-points at the rolling nightly build and never changes; the app updates itself, or refresh it with
-`brew reinstall --cask kubermeister@tip`.
+The cask is updated automatically by the release workflow in
+[kubermeister/kubermeister](https://github.com/kubermeister/kubermeister).
